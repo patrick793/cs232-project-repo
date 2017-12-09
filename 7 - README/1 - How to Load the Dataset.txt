@@ -1,0 +1,9 @@
+1. Open get-tweets-from-tweet-ids.py
+2. Input the necessary consumer_key, consumer_secret, access_token and access_secret
+3. Run get-tweets-from-tweet-ids.py with this command:
+>> python get-tweets-from-tweet-ids.py <dataset file>
+4. The program will output json file of tweet objects
+5. Step 3 for all raw files
+6. Run combine-tweets-to-single-jsonfile.py to combine all of the output json files by this command:
+>> python combine-tweets-to-single-jsonfile.py
+7. The program will output tweets.json

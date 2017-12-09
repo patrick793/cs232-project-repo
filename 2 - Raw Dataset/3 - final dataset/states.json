@@ -1,0 +1,308 @@
+[
+    {
+		"state_acronym" : "AL",
+		"state_name" : "Alabama",
+		"electoral_votes" : 9,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "AK",
+		"state_name" : "Alaska",
+		"electoral_votes" : 3,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "AZ",
+		"state_name" : "Arizona",
+		"electoral_votes" : 11,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "AR",
+		"state_name" : "Arkansas",
+		"electoral_votes" : 6,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "CA",
+		"state_name" : "California",
+		"electoral_votes" : 55,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "CO",
+		"state_name" : "Colorado",
+		"electoral_votes" : 9,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "CT",
+		"state_name" : "Connecticut",
+		"electoral_votes" : 7,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "DE",
+		"state_name" : "Delaware",
+		"electoral_votes" : 3,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "DC",
+		"state_name" : "District Of Columbia",
+		"electoral_votes" : 3,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "FL",
+		"state_name" : "Florida",
+		"electoral_votes" : 29,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "GA",
+		"state_name" : "Georgia",
+		"electoral_votes" : 16,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "HI",
+		"state_name" : "Hawaii",
+		"electoral_votes" : 4,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "ID",
+		"state_name" : "Idaho",
+		"electoral_votes" : 4,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "IL",
+		"state_name" : "Illinois",
+		"electoral_votes" : 20,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "IN",
+		"state_name" : "Indiana",
+		"electoral_votes" : 11,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "IA",
+		"state_name" : "Iowa",
+		"electoral_votes" : 6,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "KS",
+		"state_name" : "Kansas",
+		"electoral_votes" : 6,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "KY",
+		"state_name" : "Kentucky",
+		"electoral_votes" : 8,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "LA",
+		"state_name" : "Louisiana",
+		"electoral_votes" : 8,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "ME",
+		"state_name" : "Maine",
+		"electoral_votes" : 4,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "MD",
+		"state_name" : "Maryland",
+		"electoral_votes" : 10,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "MA",
+		"state_name" : "Massachusetts",
+		"electoral_votes" : 11,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "MI",
+		"state_name" : "Michigan",
+		"electoral_votes" : 16,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "MN",
+		"state_name" : "Minnesota",
+		"electoral_votes" : 10,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "MS",
+		"state_name" : "Mississippi",
+		"electoral_votes" : 6,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "MO",
+		"state_name" : "Missouri",
+		"electoral_votes" : 10,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "MT",
+		"state_name" : "Montana",
+		"electoral_votes" : 3,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "NE",
+		"state_name" : "Nebraska",
+		"electoral_votes" : 5,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "NV",
+		"state_name" : "Nevada",
+		"electoral_votes" : 6,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "NH",
+		"state_name" : "New Hampshire",
+		"electoral_votes" : 4,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "NJ",
+		"state_name" : "New Jersey",
+		"electoral_votes" : 14,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "NM",
+		"state_name" : "New Mexico",
+		"electoral_votes" : 5,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "NY",
+		"state_name" : "New York",
+		"electoral_votes" : 29,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "NC",
+		"state_name" : "North Carolina",
+		"electoral_votes" : 15,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "ND",
+		"state_name" : "North Dakota",
+		"electoral_votes" : 3,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "OH",
+		"state_name" : "Ohio",
+		"electoral_votes" : 18,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "OK",
+		"state_name" : "Oklahoma",
+		"electoral_votes" : 7,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "OR",
+		"state_name" : "Oregon",
+		"electoral_votes" : 7,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "PA",
+		"state_name" : "Pennsylvania",
+		"electoral_votes" : 20,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "RI",
+		"state_name" : "Rhode Island",
+		"electoral_votes" : 4,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "SC",
+		"state_name" : "South Carolina",
+		"electoral_votes" : 9,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "SD",
+		"state_name" : "South Dakota",
+		"electoral_votes" : 3,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "TN",
+		"state_name" : "Tennessee",
+		"electoral_votes" : 11,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "TX",
+		"state_name" : "Texas",
+		"electoral_votes" : 38,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "UT",
+		"state_name" : "Utah",
+		"electoral_votes" : 6,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "VT",
+		"state_name" : "Vermont",
+		"electoral_votes" : 3,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "VA",
+		"state_name" : "Virginia",
+		"electoral_votes" : 13,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "WA",
+		"state_name" : "Washington",
+		"electoral_votes" : 12,
+		"voted_for" : "Democrat"
+	},
+    {
+		"state_acronym" : "WV",
+		"state_name" : "West Virginia",
+		"electoral_votes" : 5,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "WI",
+		"state_name" : "Wisconsin",
+		"electoral_votes" : 10,
+		"voted_for" : "Republican"
+	},
+    {
+		"state_acronym" : "WY",
+		"state_name" : "Wyoming",
+		"electoral_votes" : 3,
+		"voted_for" : "Republican"
+	}
+]

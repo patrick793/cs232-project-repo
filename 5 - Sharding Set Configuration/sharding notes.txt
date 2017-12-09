@@ -1,0 +1,102 @@
+IP addresses for the sharded cluster
+192.168.56.104 config1
+192.168.56.105 config2
+192.168.56.106 config3
+192.168.56.107 shard1
+192.168.56.108 shard2
+// 192.168.56.109 shard3
+192.168.56.110 mongo4 -- app server
+
+>>
+mongod --configsvr --replSet "tweets-config" --dbpath data/db/
+
+>>
+mongo --host config1 --port 27019
+
+>>
+rs.initiate(
+  {
+    _id: "rscfg",
+    configsvr: true,
+    members: [
+      { _id : 0, host : "config1:27019" },
+      { _id : 1, host : "config2:27019" },
+      { _id : 2, host : "config3:27019" }
+    ]
+  }
+)
+
+// SHARD::
+
+>>
+mongod --shardsvr --replSet "tweets-shard" --dbpath data/db/
+
+>>
+mongo --host shard1 --port 27018
+
+/*
+rs.initiate(
+  {
+    _id : "tweets-shard1",
+    members: [
+      { _id : 0, host : "shard1:27018" },
+      { _id : 1, host : "shard2:27018" },
+      { _id : 2, host : "shard3:27018" }
+    ]
+  }
+)
+*/
+>>
+rs.initiate(
+  {
+    _id : "tweets-shard1",
+    members: [
+      { _id : 0, host : "shard2:27018" }
+    ]
+  }
+)
+
+>>
+rs.initiate(
+  {
+    _id : "tweets-shard2",
+    members: [
+      { _id : 0, host : "shard2:27018" }
+    ]
+  }
+)
+
+// MAIN
+
+>>
+mongos --configdb tweets-config/config1:27019,config2:27109,config3:27019
+// mongos --configdb tweets-config/192.168.56.104:27019,192.168.56.105:27109,192.168.56.106:27019 
+
+>>
+mongo --host mongo4 --port 27017
+
+>>
+sh.addShard("tweets-shard1/shard1:27018")
+sh.addShard("tweets-shard2/shard2:27018")
+// sh.addShard("tweets-shard/shard3:27018")
+
+>>
+sh.enableSharding("tweets")
+
+>>
+db.tweets.createIndex(
+	{ 'rooted_for': 1 },
+	{ name: 'rooted_for' }
+)
+
+>>
+sh.shardCollection( 
+	"us_elections_db.tweets", 
+	{ "rooted_for": 1 }
+)
+
+>>
+db1 = (new Mongo('shard1:27018')).getDB('us_elections_db')
+db2 = (new Mongo('shard2:27018')).getDB('us_elections_db')
+db1.tweets.count();
+db2.tweets.count();
